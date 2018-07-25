@@ -79,13 +79,13 @@ class Mpesa
             $LipaNaMpesaPasskey = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919",
             $TransactionType = "CustomerPayBillOnline",
             $Amount = "1",
-            $PartyA = "254714588140",
+            $PartyA = "2547xxxxx88",
             $PartyB = "174379",
-            $PhoneNumber = "254714588140",
+            $PhoneNumber = "2547xxxxxx0",
             $CallBackURL = "https://soft-cougar-60.localtunnel.me",
-            $AccountReference = "Ruaka",
-            $TransactionDesc = "RuakaLTD",
-            $Remarks = "Ruaka"
+            $AccountReference = "ihome",
+            $TransactionDesc = "ihome",
+            $Remarks = "ihome"
         );
 
         $data_string = json_encode($curl_post_data);
